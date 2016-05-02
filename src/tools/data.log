@@ -1,0 +1,148 @@
+URLs:
+Count: 116
+http://www.amazon.com
+http://www.amazon.com
+http://www.6pm.com
+http://www.comixology.com
+http://www.createspace.com
+http://www.eastdane.com
+http://www.fabric.com
+http://www.junglee.com
+http://www.amazon.com
+http://www.shopbop.com
+http://www.tenmarks.com
+http://www.6pm.com
+http://www.tumblr.com
+http://www.bookfinder.com
+http://www.comixology.com
+http://www.youtube.com
+http://www.junglee.com
+http://www.createspace.com
+http://www.eastdane.com
+http://www.fabric.com
+http://www.amazon.com
+http://www.tenmarks.com
+http://www.zapposinsights.com
+http://www.6pm.com
+http://www.tumblr.com
+http://www.bookfinder.com
+http://www.ebay.com
+http://www.tada.com
+http://www.shopzilla.com
+http://www.comixology.com
+http://www.junglee.com
+http://www.youtube.com
+http://www.eastdane.com
+http://www.fabric.com
+http://www.amazon.com
+http://www.shopbop.com
+http://www.tenmarks.com
+http://www.zapposinsights.com
+http://www.6pm.com
+http://www.tumblr.com
+http://www.bookfinder.com
+http://www.ebay.com
+http://www.shopzilla.com
+http://www.comixology.com
+http://www.omanual.org
+http://www.nysenate.gov
+http://www.michaelbonocore.com
+http://www.gettyimagesjobs.com
+http://www.image.net
+http://www.nordicphotos.com
+http://www.junglee.com
+http://www.youtube.com
+http://www.createspace.com
+http://www.eastdane.com
+http://www.fabric.com
+http://www.amazon.com
+http://www.tenmarks.com
+http://www.zapposinsights.com
+http://www.6pm.com
+http://www.tumblr.com
+http://www.bookfinder.com
+http://www.tcs.com
+http://www.aspose.com
+http://www.tada.com
+http://www.ebay.com
+http://www.nationalpost.com
+http://www.shopzilla.com
+http://www.comixology.com
+http://www.image.net
+http://www.pronopcommerce.com
+http://www.usnews.com
+http://www.imdb.com
+http://www.junglee.com
+http://www.youtube.com
+http://www.createspace.com
+http://www.eastdane.com
+http://www.fabric.com
+http://www.amazon.com
+http://www.shopbop.com
+http://www.tenmarks.com
+http://www.zapposinsights.com
+http://www.6pm.com
+http://www.tumblr.com
+http://www.bookfinder.com
+http://www.kpmgsurvey-ma.com
+http://www.kpmg-institutes.com
+http://www.adpemploymentreport.com
+http://www.hitachi.com
+http://www.redbooks.com
+http://www.addthis.com
+http://www.tcs.com
+http://www.aspose.com
+http://www.dotcomagency.com
+http://www.ebay.com
+http://www.drugstorenewsce.com
+http://www.nationalpost.com
+http://www.adperfect.com
+http://www.marketwatch.com
+http://www.wsjwine.com
+http://www.futureofnews.com
+http://www.adeverywhere.com
+http://www.shopzilla.com
+http://www.comixology.com
+http://www.omanual.org
+http://www.nysenate.gov
+http://www.michaelbonocore.com
+http://www.monster.com
+http://www.gettyimagesjobs.com
+http://www.nordicphotos.com
+http://www.image.net
+http://www.imsvintagephotos.com
+http://www.pronopcommerce.com
+http://www.state.gov
+http://www.usnews.com
+http://www.rankingsandreviews.com
+http://www.imdb.com
+
+Errors:
+{1: 2879, 7: 45, 302: 60, 39: 1, 304: 95, 37: 35, 38: 50, 177: 19, 168: 5, 301: 53, 174: 239, 303: 32, 48: 59, 49: 60, 185: 23, 244: 10, 188: 253, 117: 522, 64: 10, 204: 15, 206: 11, 207: 12, 213: 136, 57: 171, 91: 87, 58: 2, 95: 4, 106: 50, 107: 50, 40: 14, 114: 3, 116: 273, 245: 10, 118: 12}
+
+Potential:
+{131: 117, 133: 272, 262: 117, 193: 1, 8: 2777, 265: 168, 10: 307, 267: 168, 268: 168, 269: 168, 270: 117, 271: 117, 272: 168, 274: 59, 19: 14597, 276: 117, 217: 17, 137: 20, 111: 20, 28: 116, 30: 3, 160: 3, 42: 138, 43: 443, 44: 963, 45: 427, 46: 132, 47: 32, 136: 272, 178: 397, 54: 437, 55: 326, 184: 117, 59: 1, 151: 20, 189: 524, 65: 203, 194: 203, 11: 3072, 197: 14546, 73: 3, 209: 17, 210: 17, 211: 159, 14: 3381, 86: 2471, 87: 2471, 89: 2471, 218: 23, 219: 11, 122: 17, 96: 4, 16: 2385, 123: 22, 230: 20, 231: 20, 259: 3, 110: 57, 239: 1171, 241: 65, 275: 5, 246: 168, 248: 119, 250: 117, 251: 4482, 125: 15}
+
+Likely:
+{3: 124, 68: 213, 173: 2, 81: 67, 82: 9, 92: 5}
+
+Stats:
+               precision    recall  f1-score   support
+
+    Education       0.48      0.91      0.63       211
+     Shopping       1.00      0.07      0.12        45
+    Reference       0.69      0.68      0.69       180
+     Business       1.00      0.15      0.26        46
+   Government       1.00      0.06      0.11        50
+Entertainment       0.00      0.00      0.00        34
+       Sports       0.77      0.76      0.76       153
+        Autos       0.67      0.99      0.80       209
+        Games       1.00      0.49      0.66        87
+         News       0.00      0.00      0.00        31
+          Art       1.00      0.17      0.29        83
+      General       0.62      0.92      0.74       156
+   Technology       0.00      0.00      0.00        49
+
+  avg / total       0.67      0.64      0.57      1334
+
+
