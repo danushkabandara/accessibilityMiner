@@ -6,7 +6,7 @@ import achecker
 import lxml.html
 from Datumbox.DatumBox import DatumBox
 
-#import model
+
 
 
 
@@ -21,7 +21,7 @@ def num_appearances_of_tag(tag_name, html):
 
 
 
-def data_extraction(url):
+def data_extraction(url): # use achecker to get accessibility errors
     wa_checker = achecker.Achecker()
     wa_checker.get_resource(url)
     potential = wa_checker.get_total_problems()
@@ -43,7 +43,7 @@ def main():
 		request = urllib2.urlopen(line)
 		html = request.read()
         	page = lxml.html.fromstring(html)
-		meta = page.xpath('//meta')
+		meta = page.xpath('//meta')#open meta tags and get description
         	for elem in meta:
             		if elem.get('name') == "description":
                 		description = elem.get('content')
@@ -51,9 +51,9 @@ def main():
             	if elem.get('name') == "keywords":
                 	keywords = elem.get('content')
                 	print "Keywords: " + keywords
-		topic =datum_box.topic_classification(description+keywords)
+		topic =datum_box.topic_classification(description+keywords)#put the description and keywords into datumbox api to get the topic classification 
 		print "topic "+ topic 
-		potential, likely, known, type_known, type_potential, type_likely = data_extraction(line)
+		potential, likely, known, type_known, type_potential, type_likely = data_extraction(line) # use achecker to get the accessibility errors of url
 		print potential, likely, known
 		
 	    except:
